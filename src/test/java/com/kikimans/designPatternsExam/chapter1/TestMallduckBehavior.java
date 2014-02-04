@@ -26,6 +26,8 @@ public class TestMallduckBehavior {
 		
 		duck.setFlyBehavior(new FlyNoWay());
 		duck.performFly();
+		duck.setQuackBehavior(new MuteQuack());
+		duck.performQuack();
 	}
 
 }

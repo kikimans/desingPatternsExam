@@ -24,6 +24,8 @@ public class TestQuackBehavior {
 	public void test_소리가나지않는다(){
 		behavior = new MuteQuack();
 		behavior.quack();
+		
+		
 	}
 
 }

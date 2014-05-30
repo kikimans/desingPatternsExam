@@ -1,13 +1,11 @@
 package com.kikimans.designPatternsExam.chapter1;
 
-import static org.junit.Assert.*;
-
 import org.junit.Before;
 import org.junit.Test;
 
 public class TestMallduckBehavior {
 	
-	private Duck dock;
+	
 
 	@Before
 	public void setUp() throws Exception {
